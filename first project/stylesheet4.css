@@ -1,0 +1,50 @@
+*{
+    background-color: black;
+    color:green;
+}
+
+a{
+    color: white;
+    
+}
+
+.links a{
+    color: green;
+    text-decoration: none;
+
+}
+
+.links a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+#link a{
+    color: white;
+
+}
+
+.lastpara{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px;
+}
+
+.SideBar{
+    
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    float: right;
+
+}
+
+.Side-Bar{
+    color: white;
+}
+#right{
+    text-align: center;
+
+}

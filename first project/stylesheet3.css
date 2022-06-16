@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-para{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.title{
+    color: #4CAF50;
+    
+    
+}
+#style3 a{
+    background-color: #4CAF50;
+
+}
+#style3 a:hover{
+    border: 1px solid #d4d4d4;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  
+}
+
+.insidebox{
+    border: 1px solid rgb(189, 186, 183);
+    background-color: rgb(228, 226, 224);
+
+}
+
+.links a{
+    border: 1px solid #d4d4d4;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+    margin: 4px;
+    
+  
+}
+
+.links a:hover{
+    border: 1px solid #d4d4d4;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  
+}
+
+.paralink a{
+    color: black;
+    
+}
+
