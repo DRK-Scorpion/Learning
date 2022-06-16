@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/white-bkg">
+    <link rel="stylesheet" href="/home-page.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <nav class="nav">
+                <a href="#" class="nav-logo"><img src="/white-bkg" alt="none" width="100px" height="100px">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">why us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">team</a>
+                    </li>
+                    
+                </ul>
+               
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="">
+            <img src="" alt="">
+            
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="text">
+                    <h1>Main
+                        <span>
+                            heading
+                        </span>
+                        <br>
+                        <span>
+                            here
+                        </span>
+                    </h1>
+                    <h4>sub 
+                        <span>
+                            heading
+                        </span>
+                    </h4>
+                    <p class="home-first-para">
+                        paragraph starts here.
+                    </p>
+
+                </div>
+            </div>
+            <div class="overlay">
+                <div class="layer lay1"></div>   
+                <div class="layer lay2"></div>
+                <div class="layer lay3"></div>
+            </div>
+        </div>
+    </section>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js">
+
+</script>
+<script>
+    gsap.to('.lay1', {y: '-100vh', delay: .3} );
+    gsap.to('.lay2', {y: '-100vh', delay: .5} );
+    gsap.to('.lay3', {y: '-100vh', delay: .7} );
+    gsap.to('.overlay', {y: '-100vh', delay: 1} );
+
+    gsap.fromTo('.text', 
+        {
+            x: '300px', opacity: 0
+        },
+        {
+            x:0, opacity:1, ease:'back.out(1.2)', delay:1.5
+        }
+        );
+</script>
+</body> 
+</html>
