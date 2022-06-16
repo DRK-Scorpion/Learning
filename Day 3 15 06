@@ -1,1 +1,13 @@
-started with css margins.
+started with css margins
+got assigned to a project of making the home page.
+made the homepage with navbar.
+
+learnt box model.
+
+tweaked the homepage to add animations using gsap.
+added fevicol and logo to the title and nav-bar respectively.
+
+added min-width to keep the logo from moving out while the aspect ratio changes.
+eventually failed due to lack of knowledge regarding @media .
+
+created 3 more example slide to the css-example.
